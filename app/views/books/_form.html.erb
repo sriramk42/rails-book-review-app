@@ -1,0 +1,11 @@
+<div class="controller">
+    <%= simple_form_for(@book) do |f| %>
+    <div class="form-inputs">
+        <%= f.input :title %>
+        <%= f.input :description %>
+    </div>
+    <div class="form-actions">
+        <%= f.submit %>
+    </div>
+    <% end %>
+</div>
